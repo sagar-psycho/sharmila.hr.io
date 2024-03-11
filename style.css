@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 130vh;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header img{
+    height: 15vh;
+    border-radius: 10vh;
+}
+.header p{
+    margin-top: 6vh;
+    margin-left: 2vh;
+    font-size: 18px;
+}
+.head-nav{
+    margin-top: 2vh;
+    text-align: center;
+}
+.head-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+.head-nav p{
+    font-size: 15px;
+    color: blue;
+}
+.about{
+    margin-top: 10vh;
+    margin-left: 2vh;
+    background-color: yellow;
+    width: 43vh;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.about p{
+    padding-bottom: 1vh;
+}
+.about h3{
+    font-size: 15px;
+    text-align: center;
+}
+.whatsapp-group {
+    background-color: brown;
+    border-radius: 2vh;
+    height: 7vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-group a {
+    color: white;
+    padding: 2vh;
+    text-decoration: none;
+    line-height: 3vh;
+}
+.job{
+    background-color: rgb(244, 0, 232);
+    border-radius: 2vh;
+    height: 7vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    width: 45vh;
+    display: flex;
+    
+}
+.job a{
+    color: white;
+    padding: 2vh;
+    text-decoration: none;
+    line-height: 3vh;
+    margin: 0 auto;
+}
