@@ -2,9 +2,7 @@
     padding: 0;
     margin: 0;
 }
-body{
-    height: 130vh;
-}
+
 .header{
     display: flex;
     justify-content: center;
@@ -121,3 +119,39 @@ body{
     display: block;
     margin: 0 auto;
   }
+.loading{
+    border: 5px solid red;
+    height: 50px;
+    width: 50px;
+    display: none;
+    border-radius: 50%;
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: yellowgreen;
+    border-right-color:white;
+    animation: rotate .5s infinite;
+    margin-top: 30%;
+    margin-left: 45%;
+
+}
+#content {
+    display: none; /* Added */
+    animation: slideIn 1s ease-in-out;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        border-left-color: rgb(243, 243, 243);
+    }
+}
+@keyframes slideIn {
+    from {
+       transform: translateX(100%);
+    }
+    to {
+       transform: translateX(0);
+    }
+   }
+   
