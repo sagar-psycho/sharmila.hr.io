@@ -40,13 +40,16 @@ body{
     padding: 10px;
     border-radius: 10px;
     font-size: 13px;
+    margin-bottom: 5vh;
 }
 .about p{
-    padding-bottom: 1vh;
+    padding-bottom: .1vh;
 }
 .about h3{
     font-size: 15px;
     text-align: center;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .whatsapp-group {
     background-color: brown;
@@ -86,3 +89,35 @@ body{
     line-height: 3vh;
     margin: 0 auto;
 }
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.carding{
+    padding: 2vh;
+}
+  .card {
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .card {
+      width: calc(33.33% - 20px);
+    }
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .card-body .btn {
+    display: block;
+    margin: 0 auto;
+  }
